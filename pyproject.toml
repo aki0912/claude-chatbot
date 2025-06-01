@@ -1,0 +1,13 @@
+[project]
+name = "claude-chatbot"
+version = "0.1.0"
+description = "Flask-based web chatbot application with Claude AI integration"
+requires-python = ">=3.8"
+dependencies = [
+    "anthropic>=0.40.0",
+    "flask==3.0.0",
+    "python-dotenv==1.0.0",
+]
+
+[tool.uv]
+dev-dependencies = []
